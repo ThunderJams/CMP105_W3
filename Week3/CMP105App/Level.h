@@ -20,6 +20,16 @@ private:
 	void beginDraw();
 	void endDraw();
 
+	sf::RectangleShape rect;
+	sf::RectangleShape mover;
+	sf::CircleShape circle;
+	sf::CircleShape corner;
+	float speed = 0;
+	float moveSpeed = 0;
+	float moveSpeedy = 0;
+	float cornerSpeed = 0;
+	float cornerSpeedy = 0;
+
 	// Default variables for level class.
 	sf::RenderWindow* window;
 	Input* input;
